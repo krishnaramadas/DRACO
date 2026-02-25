@@ -31,7 +31,7 @@ A Snowflake-native cost dashboard powered by `SNOWFLAKE.ACCOUNT_USAGE` with an e
 
 ## 🏗️ Architecture
 
-<img width="1017" height="1215" alt="ChatGPT Image Feb 25, 2026, 03_14_38 PM" src="https://github.com/user-attachments/assets/2a76d73a-d96f-476d-a99c-426758db0772" />
+<img width="720" height="840" alt="ChatGPT Image Feb 25, 2026, 03_14_38 PM" src="https://github.com/user-attachments/assets/2a76d73a-d96f-476d-a99c-426758db0772" />
 
 
 ---
