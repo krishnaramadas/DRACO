@@ -31,25 +31,8 @@ A Snowflake-native cost dashboard powered by `SNOWFLAKE.ACCOUNT_USAGE` with an e
 
 ## 🏗️ Architecture
 
-```
-Data Sources
-├── Runbooks (.docx / .txt) → loaded into Snowflake VARIANT table
-├── Incident Archive         → Snowflake table (mock ServiceNow data)
-└── ACCOUNT_USAGE            → Native Snowflake cost data
+<img width="1017" height="1215" alt="ChatGPT Image Feb 25, 2026, 03_14_38 PM" src="https://github.com/user-attachments/assets/2a76d73a-d96f-476d-a99c-426758db0772" />
 
-        ↓
-
-Snowflake Cortex Stack
-├── Cortex Search  → semantic search over runbooks + incidents
-├── Cortex LLM     → generates grounded, strict responses
-└── Strict System Prompt → no hallucination, docs-only answers
-
-        ↓
-
-Streamlit in Snowflake
-├── Tab 1: DataOps Incident Chat
-└── Tab 2: Cost Intelligence Dashboard + Chat
-```
 
 ---
 
